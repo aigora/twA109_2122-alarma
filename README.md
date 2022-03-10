@@ -1,11 +1,17 @@
-# [Alarma]
+# Alarma
 
-[Descripción breve del proyecto a realizar (2-3 frases).]
+Actualmente, son numerosas las viviendas que son atracadas por ladrones cuyo fin es robar 
+objetos de valor. 
+Con objeto de minimizar esta situación se propone un sistema que en un primer nivel se limite 
+a la detección de movimiento basado en el uso de ultrasonidos. Posteriormente a la detección, 
+se emitirá una señal acústica mediante el uso de un altavoz.
+
 
 ## Integrantes del equipo
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
+Antonio García Montes
+Sergio Rodríguez Sanz
 
 ## Objetivos del trabajo
 
-[Lista de los objetivos que se persiguen con el trabajo propuesto.]
+
