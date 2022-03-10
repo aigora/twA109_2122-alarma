@@ -14,4 +14,4 @@ Sergio Rodríguez Sanz
 
 ## Objetivos del trabajo
 
-
+Realizar el trabajo, adquiriendo los conocimientos para realizar un futuro proyecto de programación
