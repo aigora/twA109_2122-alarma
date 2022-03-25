@@ -1,0 +1,41 @@
+// Código Arduino
+// Sensor ultrasonidos y alarma
+
+
+#define trig 1 // emisor señal
+#define echo 2 // receptor señal
+#define buzzer 12 // alarma
+
+void setup () {
+  
+  pinMode(trig, OUTPUT); // emisor
+  pinMode(echo, INPUT); // receptor
+  pinMode(buzzer, OUTPUT); 
+  
+}
+
+void loop() {
+
+  long duration, distance;
+  
+  digitalWrite(trig, LOW);
+  delay(2);
+  
+  digitalWrite(trig, HIGH);
+  delay(10);
+  
+  digitalWrite(trig, LOW);
+  
+  duration = pulseIn(echo, HIGH);  // calculo de la distancia
+  distance = (duration/2)*0,0343;  // en este caso la medimos en cm/ms
+  
+if (distance < x)  // x será la distancia que medirá el sensor en reposo
+  {
+    tone(buzzer, 1000);  // alarma suena con fecuencia de 1000 Hz
+    delay(5000); // la alarma sonará durante 5 segundos
+  
+  } else {
+    noTone(buzzer); // la alarma no suena
+  }
+  
+}
