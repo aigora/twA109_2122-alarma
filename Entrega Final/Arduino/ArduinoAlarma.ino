@@ -40,31 +40,31 @@ void loop()
         if (distancia < 20)  // x será la distancia que medirá el sensor en reposo
         {
           tone(buzzer, 1000);  // alarma suena con fecuencia de 1000 Hz
-          delay(200); // la alarma sonará durante 1 segundo
+          delay(200); // la alarma sonará durante 0,2 segundos
 
-          tone(buzzer, 3000);
-          delay(200);
+          tone(buzzer, 3000);  // alarma suena con fecuencia de 3000 Hz
+          delay(200);  // la alarma sonará durante 0,2 segundos
 
-          tone(buzzer, 1000);  // alarma suena con fecuencia de 1000 Hz
-          delay(200); // la alarma sonará durante 1 segundo
+          tone(buzzer, 1000);  
+          delay(200); 
     
           tone(buzzer, 3000);
           delay(200);
 
-          tone(buzzer, 1000);  // alarma suena con fecuencia de 1000 Hz
-          delay(200); // la alarma sonará durante 1 segundo
+          tone(buzzer, 1000);  
+          delay(200); 
 
           tone(buzzer, 3000);
           delay(200);
 
-          tone(buzzer, 1000);  // alarma suena con fecuencia de 1000 Hz
-          delay(200); // la alarma sonará durante 1 segundo
+          tone(buzzer, 1000);  
+          delay(200); 
     
           tone(buzzer, 3000);
           delay(200);
 
-          tone(buzzer, 1000);  // alarma suena con fecuencia de 1000 Hz
-          delay(200); // la alarma sonará durante 1 segundo
+          tone(buzzer, 1000);  
+          delay(200); 
 
           tone(buzzer, 3000);
           delay(200);
