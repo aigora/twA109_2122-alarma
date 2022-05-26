@@ -90,6 +90,3 @@ void imprimir_fichero()
 
 
 }
-
-// 04631384
-// 55946
